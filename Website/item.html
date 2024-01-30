@@ -1,0 +1,64 @@
+<!-- File name:     contact.html
+     Author:        Seth Peterson
+     Description:
+ This file is the contact page for the Class Webpage
+//-->
+
+<!doctype html>
+
+<html lang="en-US">
+  <!-- This area provides instructions to the browser. -->
+  <head>
+    <meta charset = "UTF-8">
+    <title>3438 Catalog</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/item.css">
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/sharedFeatures.js"></script>
+    <script src="scripts/formSubmission.js"></script>
+    <script src="scripts/item.js"></script>
+    <script src="data/catalog/select_options.js"></script>
+  </head>
+
+  <body>
+    <div id = "wrapper">
+      <header id="header">
+        <img src="images/pause.png" alt="class logo">
+        <h1 id="itemHeader">You picked "</h1>
+      </header>
+      <main>
+	<p id="testString"></p>
+	<form id="itemForm">
+	  <select class="formField" id="strap">
+	  </select>
+	  <label for="strap">- Strap color<br></label>
+
+	  <select class="formField" id="thread">
+	  </select>
+	  <label for="thread">- Thread color<br></label>
+
+	  <select class="formField" id="buckle">
+	  </select>
+	  <label id="buckle2" for="buckle">- Buckle type<br></label>
+
+	  <input class="formField" type="checkbox" name="shipping" id="shipping">
+	  <label for="shipping">- International Shipping (outside USA)<br></label>
+
+	  <label for="name">Name</label>
+	  <input type="text" class="clientInput text" id="name" placeholder="Your name goes here..."><div></div><br/>
+
+	  <label for="email1">Paypal/Email</label>
+	  <input type="text" class="clientInput text" id="email1" placeholder="Type your payment "><div></div><br/>
+
+	  <label for="email2">Paypal/Email confirmation</label>
+	  <input type="text" class="clientInput text" id="email2" placeholder="Type your payment "><div></div><br/>
+
+	  <input id="formSubmit" type="submit">
+	</form>
+	<p id="price"></p>
+      </main>
+      <footer id="footer">
+      </footer>
+    </div>
+  </body>
+</html>

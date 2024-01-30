@@ -1,0 +1,35 @@
+/**********************************************************************/
+/*! \file  contact.css
+ * \author Seth Peterson
+ * \brief
+ *     This file contains style specific to the contact webpage.
+ */
+/**********************************************************************/
+
+main section#Submission
+{
+  height:500px;
+  width:90%;
+}
+
+form
+{
+  padding: 6px;
+}
+
+input[type=text], select, textarea {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left:6px;
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}

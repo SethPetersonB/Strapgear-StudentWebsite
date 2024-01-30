@@ -1,0 +1,145 @@
+/*-- File name:     main.css
+     Author:        Seth Peterson
+     Description:
+ This file is the CSS for the Class Webpage
+*/
+
+
+body
+{
+  /* Hexadecimal   #R G B */
+  /* RGBA   rgba(255,255,255,0.5) */
+  background-color:rgb(5,7,5);
+  font-size:120%;
+}
+
+aside img
+{
+  height:auto;
+  width:100%;
+}
+
+.trinket
+{
+  height:100px;
+  width:100px;
+}
+
+div#wrapper
+{
+  width:80%;
+  padding:1rem;
+  border:solid transparent;
+  margin:0 auto;
+  background: linear-gradient(to right, blue, aqua, blue) padding-box;
+  padding:5px;
+}
+
+header
+{
+  position:relative;
+  color:rgb(255,255,255);
+  background-color:rgb(7,5,7);
+  border-bottom:solid .2em rgb(55,55,55);
+}
+
+header img
+{
+  border:solid .2em rgb(55,55,55);
+  width: 150px;
+  height: 150px;
+}
+
+header h1
+{
+  position:absolute;
+  top:50px;
+  left:285px;
+}
+
+nav
+{
+  background-color:rgba(205,205,205,1);
+  border: 1em solid;
+  border-image: linear-gradient(to bottom, rgba(14,14,15,1) 0%, rgba(205,205,205,1) 1%, rgba(205,205,205,1) 99%, rgba(14,14,15,1) 100%) 1; 
+  border-position: 50% 100%;
+}
+
+nav ul
+{
+  display:flex;
+  justify-content:center;
+  width:80%;
+  //padding-bottom:0.5em;
+}
+
+nav ul li
+{
+  width:150px;
+  text-align:center;
+  padding: 0 .5em 0;
+  //margin:8px 5px;
+  display:inline-block;
+}
+
+nav ul li a:link
+{
+  padding:5px;
+  border-bottom:solid .2em rgb(0,150,255);
+  text-decoration:none;
+}
+
+nav ul li a:hover
+{
+  color:rgb(155,155,155);
+  background-color:rgb(5,7,5);
+}
+
+nav ul li a:active
+{
+  background-color:rgb(150,150,200);
+}
+
+main
+{
+  background-color:rgba(255,215,160,1.0);
+  padding-bottom:100px;
+}
+
+main h2
+{
+  text-align:center;
+}
+
+main section
+{
+  padding-top:5px;
+  padding-left:15px;
+  width:65%;
+  margin:10px 10px 0 10px;
+  height:auto;
+  vertical-align:top;
+}
+
+aside
+{
+  width:25%;
+  margin-top:40px;
+  margin-right:10px;
+  float: right;
+}
+
+footer
+{
+  color: rgb(255,255,255);
+  text-align:center;
+  height:80px;
+  background: rgba(1,1,1,0.6);
+}
+
+footer section
+{
+  padding-left:100px;
+  padding-right:100px;
+  display:inline-block;
+}
